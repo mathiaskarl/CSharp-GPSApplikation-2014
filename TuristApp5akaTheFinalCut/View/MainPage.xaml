@@ -1,0 +1,109 @@
+﻿<Page
+    x:Class="TuristApp5akaTheFinalCut.View.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TuristApp5akaTheFinalCut"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <Storyboard x:Name="ExpandVerticalAnimation">
+            <DoubleAnimation Storyboard.TargetName="LocationMenu" Storyboard.TargetProperty="Height" From="0" To="300" Duration="0:0:0.3" EnableDependentAnimation="True"/>
+        </Storyboard>
+        <Storyboard x:Name="MinimizeVerticalAnimation">
+            <DoubleAnimation Storyboard.TargetName="LocationMenu" Storyboard.TargetProperty="Height" From="300" To="0" Duration="0:0:0.3" EnableDependentAnimation="True"/>
+        </Storyboard>
+        <Storyboard x:Name="ExpandHorizontalAnimation">
+            <DoubleAnimation Storyboard.TargetName="LocationSubMenu" Storyboard.TargetProperty="Width" From="0" To="170" Duration="0:0:0.1" EnableDependentAnimation="True"/>
+        </Storyboard>
+        <Storyboard x:Name="MinimizeHorizontalAnimation">
+            <DoubleAnimation Storyboard.TargetName="LocationSubMenu" Storyboard.TargetProperty="Width" From="170" To="0" Duration="0:0:0.1" EnableDependentAnimation="True"/>
+        </Storyboard>
+        <Storyboard x:Name="ExpandFavouriteAnimation">
+            <DoubleAnimation Storyboard.TargetName="FavouriteMenu" Storyboard.TargetProperty="Height" From="0" To="300" Duration="0:0:0.3" EnableDependentAnimation="True"/>
+        </Storyboard>
+        <Storyboard x:Name="MinimizeFavouriteAnimation">
+            <DoubleAnimation Storyboard.TargetName="FavouriteMenu" Storyboard.TargetProperty="Height" From="300" To="0" Duration="0:0:0.3" EnableDependentAnimation="True"/>
+        </Storyboard>
+    </Page.Resources>
+
+    <Grid x:Name="MyGrid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="90"/>
+            <RowDefinition/>
+            <RowDefinition Height="90"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="1" x:Name="RouteText" Visibility="Collapsed" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0, 30, 0, 0">
+            <StackPanel.Background>
+                <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/App/BoxBackground.png"/>
+            </StackPanel.Background>
+            <TextBlock x:Name="RouteFirstPoint" FontSize="15" Margin="25,20,25,15" LineHeight="22">
+                <Run Text="Dobbelklik på en position, for at vælge din nuværende lokation."/><LineBreak/>
+                <Run FontSize="13" Text="Klik på Find rute, for at annulere denne handling." Foreground="#FFA49898"/>
+            </TextBlock>
+            <TextBlock x:Name="RouteSecondPoint" Visibility="Collapsed" FontSize="15" Margin="25,20,25,15" LineHeight="22">
+                <Run Text="Dobbelklik på den ønskede destination."/><LineBreak/>
+                <Run FontSize="13" Text="Klik på Find rute, for at annulere denne handling." Foreground="#FFA49898"/>
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="1" x:Name="RouteGuide" Visibility="Collapsed" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,30,45,0" Width="220">
+            <StackPanel.Background>
+                <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/App/BoxBackground.png"/>
+            </StackPanel.Background>
+            <TextBlock FontSize="20" Margin="20,10,20,5" Text="Rute guide" />
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0"  FontSize="15" Margin="20,5,0,20" LineHeight="22" Foreground="#FFA49898">
+                <Run Text="Distance:"/><LineBreak/>
+                <Run Text="Ankomst:"/><LineBreak/>
+                <Run Text="Via punkt:"/>
+                </TextBlock>
+                <TextBlock Grid.Column="1" HorizontalAlignment="Right" FontSize="15" Margin="0,5,20,20" LineHeight="22" Foreground="#FFA49898" FlowDirection="RightToLeft">
+                <Run x:Name="GuideDistance" Text=" 200m"/><LineBreak/>
+                <Run x:Name="GuideArrival" Text="6 min."/>
+                </TextBlock>
+            </Grid>
+            
+        </StackPanel>
+        <ScrollViewer Grid.Row="1" x:Name="ZoomFunction" ZoomMode="Enabled" MinZoomFactor="0.2" MaxZoomFactor="1.0" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Disabled">
+            <StackPanel x:Name="CanvasContainer" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                <Canvas x:Name="MyCanvas" />
+            </StackPanel>
+        </ScrollViewer>
+
+        <StackPanel Grid.Row="0" Background="Black" VerticalAlignment="Stretch">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <AppBarButton x:Name="Button_Reset" Grid.Column="0" Label="Nulstil" HorizontalAlignment="Left" VerticalAlignment="Stretch" Icon="Refresh" Click="Button_Reset_OnClick"/>
+                <AppBarButton x:Name="Button_Exit" Grid.Column="1" Label="Exit" HorizontalAlignment="Right" VerticalAlignment="Stretch" Icon="Cancel" Click="Button_Exit_Click"/>
+            </Grid>
+        </StackPanel>
+        <ListView Background="DarkOrange" BorderBrush="DarkOrange" BorderThickness="4" Height="0" Width="150" Grid.Row="1" x:Name="LocationMenu" ItemsSource="{Binding Categories}" SelectedItem="{Binding SelectedCategory, Mode=TwoWay}" VerticalAlignment="Bottom" HorizontalAlignment="Left" ShowsScrollingPlaceholders="False" SelectionChanged="LocationMenu_SelectionChanged"/>
+        <ListView Grid.Row="1" Margin="150,0,0,0" Background="Orange" BorderBrush="Orange" BorderThickness="4" x:Name="LocationSubMenu" ItemsSource="{Binding LocationsInMenu}" SelectedItem="{Binding CurrentLocation, Mode=TwoWay}" Height="300" Width="0" VerticalAlignment="Bottom" HorizontalAlignment="Left" SelectionChanged="LocationSubMenu_SelectionChanged">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                    <TextBlock DataContext="{Binding}" Text="{Binding Name}" Padding="10, 0, 10, 0"></TextBlock>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+        </ListView>
+        <ListView Margin="250,0,0,0" Background="DarkOrange" BorderBrush="DarkOrange" BorderThickness="4" Height="0" Width="120" Grid.Row="1" x:Name="FavouriteMenu" VerticalAlignment="Bottom" HorizontalAlignment="Left" ShowsScrollingPlaceholders="False" SelectionChanged="FavouriteMenu_SelectionChanged"/>
+        <StackPanel Background="Black" Grid.Row="2" VerticalAlignment="Stretch">
+            <StackPanel.Orientation>Horizontal</StackPanel.Orientation>
+            <AppBarButton x:Name="Button_FindLocation" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Label="Find lokation" Icon="List" Click="Button_FindLocation_Click"/>
+            <AppBarButton x:Name="Button_FindRoute" Margin="20,0,0,0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Label="Find rute" Icon="Zoom" Click="Button_FindRoute_OnClick"/>
+            <AppBarButton x:Name="Button_Favourites" Margin="20,0,0,0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Label="Favoritter" Click="Button_Favourites_Click">
+                <AppBarButton.Icon>
+                    <SymbolIcon/>
+                </AppBarButton.Icon>
+            </AppBarButton>
+        </StackPanel>
+
+    </Grid>
+</Page>

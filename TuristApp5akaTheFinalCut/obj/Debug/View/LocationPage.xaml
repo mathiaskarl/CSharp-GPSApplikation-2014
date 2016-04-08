@@ -1,0 +1,176 @@
+﻿<Page
+    
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TuristApp5akaTheFinalCut.View"
+    xmlns:viewModel="using:TuristApp5akaTheFinalCut.ViewModel"
+    x:Class="TuristApp5akaTheFinalCut.View.LocationPage"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:Name="PageGrid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="90"/>
+            <RowDefinition/>
+            <RowDefinition Height="90"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.DataContext>
+            <viewModel:ViewModel></viewModel:ViewModel>
+        </Grid.DataContext>
+        <StackPanel Background="Black" Grid.ColumnSpan="2" Grid.Column="0">
+            <AppBarButton x:ConnectionId='1' x:Name="ButtonBack" Label="Return"                           >
+                <AppBarButton.Icon>
+                    <SymbolIcon Height="40" Symbol="Back" VerticalAlignment="Bottom"/>
+                </AppBarButton.Icon>
+            </AppBarButton>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="0" Background="Black" HorizontalAlignment="Stretch">
+            <AppBarButton x:Name="ButtonSound" Label="Sound" Icon="Volume" Command="{Binding AudioCommand}"/>
+            <AppBarButton x:Name="ButtonFavourite" Label="Favourite" Command="{Binding FavouriteCommand}">
+                <AppBarButton.Icon>
+                    <SymbolIcon/>
+                </AppBarButton.Icon>
+            </AppBarButton>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="0" Orientation="Vertical" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" x:Name="StackPanelLocation">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.ColumnSpan="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                    <TextBlock x:Name="TextBlockLocationName" Text="{Binding Name}" FontSize="45" HorizontalAlignment="Center"></TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Column="0" Margin="0,55,0,0" HorizontalAlignment="Stretch">
+                    <Image x:Name="ImageLocation" Source="{Binding Picture}"></Image>
+                    <TextBlock FontSize="30" Text="Adress:"/>
+                    <TextBlock x:Name="TextBlockLocationAdress" Text="{Binding Adress}" FontSize="30"></TextBlock>
+                </StackPanel>
+
+                <StackPanel Grid.Column="1" Margin="0,55,0,0" HorizontalAlignment="Stretch">
+                    <TextBlock FontSize="30" Text="About this location:"/>
+                    <TextBlock x:Name="TextBlockLocationDescription" FontSize="28" Text="{Binding Description}"></TextBlock>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="0" Orientation="Vertical" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" x:Name="StackPanelMuseum">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.ColumnSpan="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                    <TextBlock x:Name="TextBlockMuseumName" Text="{Binding Name}" FontSize="45" HorizontalAlignment="Center"></TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Column="0" Margin="0,55,0,0" HorizontalAlignment="Stretch">
+                    <Image x:Name="ImageMuseum" Source="{Binding Picture}"></Image>
+                    <TextBlock FontSize="30" Text="Adress:"/>
+                    <TextBlock x:Name="TextBlockMuseumAdress" Text="{Binding Adress}" FontSize="30"></TextBlock>
+                    <TextBlock FontSize="30" Text="Phone:"/>
+                    <TextBlock x:Name="TextBlockMuseumPhone" Text="{Binding Phone}" FontSize="30"></TextBlock>
+                </StackPanel>
+
+                <StackPanel Grid.Column="1" Margin="0,55,0,0" HorizontalAlignment="Stretch">
+                    <TextBlock FontSize="30" Text="About this location:"/>
+                    <TextBlock x:Name="TextBlockMuseumDescription" FontSize="28" Text="{Binding Description}"></TextBlock>
+                    <TextBlock FontSize="30" Text="Opening hours:"/>
+                    <TextBlock x:Name="TextBlockMuseumOpeningHours" Text="{Binding OpeningHours}" FontSize="30"></TextBlock>
+                    <TextBlock FontSize="30" Text="Ticket price:"/>
+                    <TextBlock x:Name="TextBlockTicketPrice" Text="{Binding TicketPrice}" FontSize="30"></TextBlock>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="0" Orientation="Vertical" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" x:Name="StackPanelStore">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.ColumnSpan="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                    <TextBlock x:Name="TextBlockStoreName" Text="{Binding Name}" FontSize="45" HorizontalAlignment="Center"></TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Column="0" Margin="0,55,0,0" HorizontalAlignment="Stretch">
+                    <Image x:Name="ImageStore" Source="{Binding Picture}"></Image>
+                    <TextBlock FontSize="30" Text="Adress:"/>
+                    <TextBlock x:Name="TextBlockStoreAdress" Text="{Binding Adress}" FontSize="30"></TextBlock>
+                    <TextBlock FontSize="30" Text="Phone:"/>
+                    <TextBlock x:Name="TextBlockStorePhone" Text="{Binding Phone}" FontSize="30"></TextBlock>
+                </StackPanel>
+
+                <StackPanel Grid.Column="1" Margin="0,55,0,0" HorizontalAlignment="Stretch">
+                    <TextBlock FontSize="30" Text="About this location:"/>
+                    <TextBlock x:Name="TextBlockStoreDescription" FontSize="28" Text="{Binding Description}"></TextBlock>
+                    <TextBlock FontSize="30" Text="Opening hours:"/>
+                    <TextBlock x:Name="TextBlockStoreOpeningHours" Text="{Binding OpeningHours}" FontSize="30"></TextBlock>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="0" Orientation="Vertical" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" x:Name="StackPanelEvent">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.ColumnSpan="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                    <TextBlock x:Name="TextBlockEventName" Text="{Binding Name}" FontSize="45" HorizontalAlignment="Center"></TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Column="0" Margin="0,55,0,0" HorizontalAlignment="Stretch">
+                    <Image x:Name="ImageEvent" Source="{Binding Picture}"></Image>
+                    <TextBlock FontSize="30" Text="Adress:"/>
+                    <TextBlock x:Name="TextBlockEventAdress" Text="{Binding Adress}" FontSize="30"></TextBlock>
+                    <TextBlock FontSize="30" Text="Phone:"/>
+                    <TextBlock x:Name="TextBlockEventPhone" Text="{Binding Phone}" FontSize="30"></TextBlock>
+                </StackPanel>
+
+                <StackPanel Grid.Column="1" Margin="0,55,0,0" HorizontalAlignment="Stretch">
+                    <TextBlock FontSize="30" Text="About this location:"/>
+                    <TextBlock x:Name="TextBlockEventDescription" FontSize="28" Text="{Binding Description}"></TextBlock>
+                    <TextBlock FontSize="30" Text="Opening hours:"/>
+                    <TextBlock x:Name="TextBlockEventOpeningHours" Text="{Binding OpeningHours}" FontSize="30"></TextBlock>
+                    <TextBlock FontSize="30" Text="Timeframe:"/>
+                    <TextBlock x:Name="TextBlockEventTimeframe" Text="{Binding TimeFrame}" FontSize="30"></TextBlock>
+                    <TextBlock FontSize="30" Text="Ticket price:"/>
+                    <TextBlock x:Name="TextBlockEventTicketPrice" Text="{Binding TicketPrice}" FontSize="30"></TextBlock>
+                    <TextBlock FontSize="30" Text="Program:"/>
+                    <TextBlock x:Name="TextBlockEventProgram" Text="{Binding Program}" FontSize="30"></TextBlock>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="0" Orientation="Vertical" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" x:Name="StackPanelHotel">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.ColumnSpan="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                    <TextBlock x:Name="TextBlockHotelName" Text="{Binding Name}" FontSize="45" HorizontalAlignment="Center"></TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Column="0" Margin="0,55,0,0" HorizontalAlignment="Stretch">
+                    <Image x:Name="ImageHotel" Source="{Binding Picture}"></Image>
+                    <TextBlock FontSize="30" Text="Adress:"/>
+                    <TextBlock x:Name="TextBlockHotelAdress" Text="{Binding Adress}" FontSize="30"></TextBlock>
+                    <TextBlock FontSize="30" Text="Phone:"/>
+                    <TextBlock x:Name="TextBlockHotelPhone" Text="{Binding Phone}" FontSize="30"></TextBlock>
+                </StackPanel>
+
+                <StackPanel Grid.Column="1" Margin="0,55,0,0" HorizontalAlignment="Stretch">
+                    <TextBlock FontSize="30" Text="About this location:"/>
+                    <TextBlock x:Name="TextBlockHotelDescription" FontSize="28" Text="{Binding Description}"></TextBlock>
+                    <TextBlock FontSize="30" Text="Opening hours:"/>
+                    <TextBlock x:Name="TextBlockHotelOpeningHours" Text="{Binding OpeningHours}" FontSize="30"></TextBlock>
+                    <TextBlock FontSize="30" Text="Price range:"/>
+                    <TextBlock x:Name="TextBlockHotelPriceRange" Text="{Binding PriceRange}" FontSize="30"></TextBlock>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+
+    </Grid>
+</Page>
+

@@ -1,0 +1,74 @@
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\App.g.i.cs
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\App.g.cs
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\View\MainPage.g.i.cs
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\View\MainPage.g.cs
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\XamlTypeInfo.g.cs
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\App.xaml
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\App.xbf
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\XamlSaveStateFile.xml
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\bin\Debug\App.xbf
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\bin\Debug\View\MainPage.xbf
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\bin\Debug\TuristApp5akaTheFinalCut.xr.xml
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\bin\Debug\TuristApp5akaTheFinalCut.exe
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\bin\Debug\TuristApp5akaTheFinalCut.pdb
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\bin\Debug\resources.pri
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\bin\Debug\AppxManifest.xml
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\bin\Debug\TuristApp5akaTheFinalCut.build.appxrecipe
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\View\MainPage.xaml
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\View\MainPage.xbf
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\TuristApp5akaTheFinalCut.exe
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\TuristApp5akaTheFinalCut.pdb
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\priconfig.xml
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\priconfig.xml.intermediate
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\layout.resfiles
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\layout.resfiles.intermediate
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\resources.resfiles
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\resources.resfiles.intermediate
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\pri.resfiles
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\pri.resfiles.intermediate
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\qualifiers.txt
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\qualifiers.txt.intermediate
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\ProjectArchitectures.txt
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\bin\Debug\View\LocationPage.xbf
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\View\LocationPage.g.i.cs
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\View\LocationPage.g.cs
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\View\LocationPage.xaml
+c:\users\jakob\documents\visual studio 2013\Projects\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\View\LocationPage.xbf
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\bin\Debug\App.xbf
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\bin\Debug\View\LocationPage.xbf
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\bin\Debug\View\MainPage.xbf
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\bin\Debug\TuristApp5akaTheFinalCut.xr.xml
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\bin\Debug\TuristApp5akaTheFinalCut.exe
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\bin\Debug\TuristApp5akaTheFinalCut.pdb
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\bin\Debug\resources.pri
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\bin\Debug\AppxManifest.xml
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\bin\Debug\TuristApp5akaTheFinalCut.build.appxrecipe
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\App.g.i.cs
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\App.g.cs
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\View\LocationPage.g.i.cs
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\View\LocationPage.g.cs
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\View\MainPage.g.i.cs
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\View\MainPage.g.cs
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\App.xaml
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\View\LocationPage.xaml
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\View\MainPage.xaml
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\App.xbf
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\View\LocationPage.xbf
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\View\MainPage.xbf
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\XamlSaveStateFile.xml
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\TuristApp5akaTheFinalCut.exe
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\TuristApp5akaTheFinalCut.pdb
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\priconfig.xml
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\priconfig.xml.intermediate
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\layout.resfiles
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\layout.resfiles.intermediate
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\resources.resfiles
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\resources.resfiles.intermediate
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\pri.resfiles
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\pri.resfiles.intermediate
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\qualifiers.txt
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\qualifiers.txt.intermediate
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\ProjectArchitectures.txt

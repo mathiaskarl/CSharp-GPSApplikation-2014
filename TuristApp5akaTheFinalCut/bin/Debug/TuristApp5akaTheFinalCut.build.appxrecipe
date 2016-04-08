@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MATHIAS</Machine>
+    <WindowsUser>mathi_000</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>915c5efc-1fb8-40b3-bc0d-b05ba7fd3d64</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\bin\Debug\TuristApp5akaTheFinalCut.exe">
+      <PackagePath>TuristApp5akaTheFinalCut.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\App\BoxBackground.png">
+      <PackagePath>Assets\App\BoxBackground.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\aager_muller.png">
+      <PackagePath>Assets\Lokationer\aager_muller.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\bedAndBreakfast.png">
+      <PackagePath>Assets\Lokationer\bedAndBreakfast.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\Bestseller.png">
+      <PackagePath>Assets\Lokationer\Bestseller.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\bjergtrolden.png">
+      <PackagePath>Assets\Lokationer\bjergtrolden.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\Bones.png">
+      <PackagePath>Assets\Lokationer\Bones.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\Domkirke.png">
+      <PackagePath>Assets\Lokationer\Domkirke.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\Gulland.png">
+      <PackagePath>Assets\Lokationer\Gulland.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\håndværkeren.png">
+      <PackagePath>Assets\Lokationer\håndværkeren.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\InfoBox\bank.png">
+      <PackagePath>Assets\Lokationer\InfoBox\bank.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\InfoBox\cafe.png">
+      <PackagePath>Assets\Lokationer\InfoBox\cafe.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\InfoBox\hotel.png">
+      <PackagePath>Assets\Lokationer\InfoBox\hotel.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\InfoBox\kilde_info.png">
+      <PackagePath>Assets\Lokationer\InfoBox\kilde_info.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\InfoBox\kloster_info.png">
+      <PackagePath>Assets\Lokationer\InfoBox\kloster_info.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\InfoBox\kunst_info.png">
+      <PackagePath>Assets\Lokationer\InfoBox\kunst_info.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\InfoBox\middelalder_info.png">
+      <PackagePath>Assets\Lokationer\InfoBox\middelalder_info.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\InfoBox\restaurant.png">
+      <PackagePath>Assets\Lokationer\InfoBox\restaurant.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\InfoBox\shopping.png">
+      <PackagePath>Assets\Lokationer\InfoBox\shopping.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\InfoBox\vor_frue_kirke_info.png">
+      <PackagePath>Assets\Lokationer\InfoBox\vor_frue_kirke_info.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\Jensens_bøfhus.png">
+      <PackagePath>Assets\Lokationer\Jensens_bøfhus.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\jyske_bank.png">
+      <PackagePath>Assets\Lokationer\jyske_bank.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\kaffekilden.png">
+      <PackagePath>Assets\Lokationer\kaffekilden.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\kloster4.png">
+      <PackagePath>Assets\Lokationer\kloster4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\maglekilde1.png">
+      <PackagePath>Assets\Lokationer\maglekilde1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\middelalder museumet.png">
+      <PackagePath>Assets\Lokationer\middelalder museumet.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\mumm.png">
+      <PackagePath>Assets\Lokationer\mumm.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\Nodea.png">
+      <PackagePath>Assets\Lokationer\Nodea.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\prindsen.png">
+      <PackagePath>Assets\Lokationer\prindsen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\Rådhuskælderen.png">
+      <PackagePath>Assets\Lokationer\Rådhuskælderen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\sultan_castle.png">
+      <PackagePath>Assets\Lokationer\sultan_castle.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\Sushi_Yoshi.png">
+      <PackagePath>Assets\Lokationer\Sushi_Yoshi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\vero_moda.png">
+      <PackagePath>Assets\Lokationer\vero_moda.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\vivaldi.png">
+      <PackagePath>Assets\Lokationer\vivaldi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\vor_frue_kirke.png">
+      <PackagePath>Assets\Lokationer\vor_frue_kirke.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\zizzi.png">
+      <PackagePath>Assets\Lokationer\zizzi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Kort\LilleRoskildeKort.jpg">
+      <PackagePath>Assets\Kort\LilleRoskildeKort.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Kort\RoskildeKort.jpg">
+      <PackagePath>Assets\Kort\RoskildeKort.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\Assets\Lokationer\kunstmuseum.jpg">
+      <PackagePath>Assets\Lokationer\kunstmuseum.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\bin\Debug\View\LocationPage.xbf">
+      <PackagePath>View\LocationPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\bin\Debug\View\MainPage.xbf">
+      <PackagePath>View\MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\bin\Debug\TuristApp5akaTheFinalCut.xr.xml">
+      <PackagePath>TuristApp5akaTheFinalCut.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathi_000\Desktop\TuristApp5akaTheFinalCut\TuristApp5akaTheFinalCut\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
